@@ -9,7 +9,7 @@ body {
 }
 
 .content {
-    margin: 140px 70%;
+    margin: 2% 7%;
     background: lightgrey;
     padding: 5%;
 }
@@ -27,11 +27,11 @@ body {
 }
 
 .text-size-1 {
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .text-size-2 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 .text-size-3 {
@@ -55,9 +55,9 @@ img {
 }
 
 .image-with-cap{
-    margin: 3%;
+    margin: 1%;
     background: white;
-    padding: 6%;
+    padding: 1%;
 }
 
 @media screen and (max-width: 600px){
