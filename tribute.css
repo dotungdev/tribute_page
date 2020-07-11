@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Noticia+Text');
+
+body {
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    font-family: noticia text, arial;
+    font-size: 90%;
+}
+
+.content {
+    margin: 140px 70%;
+    background: lightgrey;
+    padding: 5%;
+}
+
+.text-center{
+    text-align: center;
+  }  
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.text-size-1 {
+    font-size: 1rem;
+}
+
+.text-size-2 {
+    font-size: 1.4rem;
+}
+
+.text-size-3 {
+    font-size: 2rem;
+}
+
+.text-size-4 {
+    font-size: 3rem;
+}
+
+img {
+    width: 100%;
+}
+
+.cap {
+    margin: auto 10%;
+}
+
+.quote {
+    margin: auto 20%;
+}
+
+.image-with-cap{
+    margin: 3%;
+    background: white;
+    padding: 6%;
+}
+
+@media screen and (max-width: 600px){
+    .image-with-cap {
+        padding: 1%;
+        margin: 1%;
+    }
+    .content {
+        margin: 100px 2%;
+    }
+    .text-size-3 {
+        font-size: 1.5rem;
+    }
+}
